@@ -1,6 +1,5 @@
 class User < ActiveRecord::Base
-	validates :name, presence: true
-	validates :login, presence: true
-	validates :pass, presence: true
+	validates_presence_of :name, :login, :pass
+	validates_length_of :name, :login, :pass, minimum:10
 
 end

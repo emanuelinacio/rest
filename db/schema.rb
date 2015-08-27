@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150827102112) do
+ActiveRecord::Schema.define(version: 20150827134018) do
 
   create_table "trackers", force: true do |t|
     t.integer  "users_id"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20150827102112) do
     t.string   "name"
     t.string   "login"
     t.string   "pass"
+    t.string   "device"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

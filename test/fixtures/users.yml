@@ -4,8 +4,10 @@ one:
   name: MyString
   login: MyString
   pass: MyString
+  device: MyString
 
 two:
   name: MyString
   login: MyString
   pass: MyString
+  device: MyString
