@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  users_id: 
+  date_tracker: 2015-08-27 07:21:12
+  lat_tracker: MyString
+  long_tracker: MyString
+
+two:
+  users_id: 
+  date_tracker: 2015-08-27 07:21:12
+  lat_tracker: MyString
+  long_tracker: MyString
