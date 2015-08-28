@@ -3,11 +3,11 @@
 one:
   name: MyString
   login: MyString
-  pass: MyString
+  password: MyString
   device: MyString
 
 two:
   name: MyString
   login: MyString
-  pass: MyString
+  password: MyString
   device: MyString
